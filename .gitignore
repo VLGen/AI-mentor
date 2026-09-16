@@ -1,0 +1,42 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache and tooling
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+
+# Generated raw source data
+/data/raw_wiki/
+
+# Local Qdrant storage
+/qdrant_data/
+/qdrant_storage/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+/tests

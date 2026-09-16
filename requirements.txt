@@ -1,0 +1,12 @@
+python-dotenv
+wikipedia-api
+
+llama-index
+llama-index-embeddings-huggingface
+llama-index-vector-stores-qdrant
+sentence-transformers
+tqdm
+
+qdrant-client
+
+llama-index-llms-ollama
